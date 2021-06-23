@@ -1,5 +1,5 @@
 # 功能展示
-[点此观看](https://quiethear.github.io/indicator-floor/电商网站楼层指示器.html "电商网站楼层指示器")(建议右键新建窗口查看)
+[点此观看](https://quiethear.github.io/indicator-floor/index.html "电商网站楼层指示器")(建议右键新建窗口查看)
 # 说明文档
 > ### 使用步骤
 >> 1. 下载插件

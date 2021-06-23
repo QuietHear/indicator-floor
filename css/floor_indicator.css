@@ -1,76 +1,112 @@
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 header {
   height: 40px;
-  background: gray; }
+  background: gray;
+}
 
 .nav {
   height: 500px;
   width: 60%;
   margin: 20px auto;
   color: #fff;
-  background: #000; }
+  background: #000;
+}
 
 section {
   padding: 0 80px;
   position: relative;
-  padding-bottom: 1000px; }
-  section > div {
-    height: 500px; }
-    section > div:first-child {
-      background: red; }
-    section > div:nth-child(2) {
-      background: orange; }
-    section > div:nth-child(3) {
-      background: yellow; }
-    section > div:nth-child(4) {
-      background: green; }
-    section > div:nth-child(5) {
-      background: cyan; }
-    section > div:nth-child(6) {
-      background: blue; }
-    section > div:nth-child(7) {
-      background: purple; }
-    section > div .tit {
-      color: #fff;
-      height: 50px;
-      line-height: 50px;
-      margin: 0; }
-  section .slide {
-    position: absolute;
-    opacity: 0;
-    transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    /* Firefox 4 */
-    -webkit-transition: opacity 1s;
-    /* Safari and Chrome */
-    -o-transition: opacity 1s;
-    /* Opera */
-    top: 0;
-    left: 10px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0; }
-    section .slide li {
-      border-bottom: 1px solid #fff;
-      pointer-events: none;
-      background: rgba(0, 0, 0, 0.4); }
-      section .slide li a {
-        padding: 5px 10px;
-        display: block;
-        text-decoration: none;
-        color: #fff; }
-      section .slide li:last-child {
-        border-bottom: 0; }
-      section .slide li:hover, section .slide li.active {
-        background: #e4393c; }
-    section .slide.show {
-      opacity: 1; }
-      section .slide.show li {
-        pointer-events: auto; }
-    section .slide.fixed {
-      position: fixed;
-      top: 80px; }
+  padding-bottom: 1000px;
+}
 
-/*# sourceMappingURL=floor_indicator.css.map */
+section > div {
+  height: 500px;
+}
+
+section > div:first-child {
+  background: red;
+}
+
+section > div:nth-child(2) {
+  background: orange;
+}
+
+section > div:nth-child(3) {
+  background: yellow;
+}
+
+section > div:nth-child(4) {
+  background: green;
+}
+
+section > div:nth-child(5) {
+  background: cyan;
+}
+
+section > div:nth-child(6) {
+  background: blue;
+}
+
+section > div:nth-child(7) {
+  background: purple;
+}
+
+section > div .tit {
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+section .slide {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  /* Firefox 4 */
+  -webkit-transition: opacity 1s;
+  /* Safari and Chrome */
+  -o-transition: opacity 1s;
+  /* Opera */
+  top: 0;
+  left: 10px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section .slide li {
+  border-bottom: 1px solid #fff;
+  pointer-events: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+section .slide li a {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+section .slide li:last-child {
+  border-bottom: 0;
+}
+
+section .slide li:hover, section .slide li.active {
+  background: #e4393c;
+}
+
+section .slide.show {
+  opacity: 1;
+}
+
+section .slide.show li {
+  pointer-events: auto;
+}
+
+section .slide.fixed {
+  position: fixed;
+  top: 80px;
+}
